@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tetris</title>
+</head>
+<body>
+
+    <div id="game-container">
+        <div id="board-container">
+            <canvas id="tetris-board" width="300" height="600"></canvas>
+        </div>
+        <div id="controls">
+            <div id="score">Score: <span id="score-value">0</span></div>
+            <div id="next-piece-container">
+                <h3>Next Piece:</h3>
+                <canvas id="next-piece" width="120" height="120"></canvas>
+            </div>
+            <div class="d-pad">
+                <div id="left" class="d-pad-button">&#9664;</div>
+                <div id="right" class="d-pad-button">&#9654;</div>
+                <div id="down" class="d-pad-button">&#9660;</div>
+                <div id="rotate" class="d-pad-button">R</div>
+            </div>
+            <button id="start-button">Start Game</button>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

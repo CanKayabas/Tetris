@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+body {
+	font-family: "VT323", monospace;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	margin: 0;
+	background-color: #bbb;
+}
+#game-container {
+	display: flex;
+	align-items: flex-start;
+}
+#board-container {
+	text-align: center;
+}
+#tetris-board {
+	border: 2px solid #333;
+}
+#score {
+	font-size: 28px;
+	margin-top: 100px;
+}
+#start-button {
+	font-family: "VT323", monospace;
+	font-size: 24px;
+	padding: 10px 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	display: block;
+	width: 100%;
+}
+#controls {
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.d-pad {
+	width: 150px;
+	height: 150px;
+	position: relative;
+	margin-top: 20px;
+}
+.d-pad-button {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #ddd;
+	border: 1px solid #999;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	user-select: none;
+}
+#rotate {
+	top: -1px;
+	left: 50px;
+}
+#left {
+	top: 50px;
+	left: 0;
+}
+#right {
+	top: 50px;
+	right: 0;
+}
+#down {
+	top: 50px;
+	left: 50px;
+}
+#next-piece-container {
+	text-align: center;
+}
+#next-piece {
+	width: 120px;
+	height: 120px;
+	border: 2px solid #333;
+	margin-top: 10px;
+	background-color: #fff;
+}
+h3 {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
